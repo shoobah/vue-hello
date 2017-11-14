@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Jomen det verkar ju lira!</h2>
+    <h2>Jomen. det verkar ju lira!</h2>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
     name: 'HelloWorld',
     data() {
         return {
-            msg: 'Hej hej Vue'
+            msg: 'Vue FTW'
         };
     }
 };

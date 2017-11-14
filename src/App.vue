@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <img src="./assets/Pig-PNG-Pic.png">
+    <h2>{{msg}}</h2>
+    NEJ
     <HelloWorld/>
   </div>
 </template>
@@ -12,6 +14,11 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  data() {
+      return {
+          msg: 'Anders äger!'
+      };
   }
 }
 </script>
@@ -24,5 +31,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+h2 {
+    font-weight: 100;
+    text-decoration: underline;
 }
 </style>
